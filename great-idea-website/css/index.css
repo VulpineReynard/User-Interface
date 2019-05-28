@@ -89,18 +89,18 @@ header .navigation a {
 }
 
 header nav a:first-child{
-	margin-left: -6%;
+	
 }
 
 header nav .logo{
 	display: inline-block;
 	margin-bottom: -.9%;
-	margin-left: 5%;
+	margin-left: 6%;
 }
 
 .topContent {
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	padding-right: 1%;
 	border-top: solid 1px black;
 	display: inline-block;
@@ -124,18 +124,31 @@ header nav .logo{
 	text-align: center;
 	padding-top: 4%;
 	padding-bottom: 6%;
-	border: 1px black solid;
+	border-bottom: 1px black solid;
 }
 
 .inno {
 	display: inline-block;
-	width: 45%;
+	width: 49%;
+	margin: auto;
+}
+
+#started {
+	border: 1px black solid;
+	padding: 2%;
+	text-align: center;
+	width: 150px;
+	margin: auto;
 }
 
 .codeSnippet {
 	display: inline-block;
-	width: 45%;
+	width: 49%;
 	margin-right: -6%;
+}
+
+.codeSnippet img {
+	margin-right: -15%;
 }
 
 .middle-img {
@@ -145,9 +158,10 @@ header nav .logo{
 .bottomContent {
 	display: inline-block;
 	width: 90%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	padding-right: 1%;
+	border-bottom: 2px solid black;
 }
 
 .services {
@@ -163,4 +177,14 @@ header nav .logo{
 .vision {
 	display: inline-block;
 	width: 33%
+}
+
+footer {
+	padding-top: 4%;
+}
+
+#copyright {
+	text-align: center;
+	padding-bottom: 10%;
+	padding-top: 5%;
 }
